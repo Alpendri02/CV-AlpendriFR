@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Template dengan Foto</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+            margin-top: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 15px;
+            display: block;
+            border: 3px solid #3498db;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .contact {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        .contact p {
+            margin: 5px 0;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .experience-item, .education-item {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-left: 2px solid #bdc3c7;
+            background: #ecf0f1;
+        }
+        .job-title {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .date {
+            font-style: italic;
+            color: #7f8c8d;
+            float: right;
+        }
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills-list li {
+            background: #3498db;
+            color: white;
+            display: inline-block;
+            margin: 5px;
+            padding: 5px 10px;
+            border-radius: 20px;
+        }
+        @media print {
+            body { background: white; }
+            .container { box-shadow: none; margin: 0; }
+            .photo { width: 120px; height: 120px; }
+        }
+        @media (max-width: 600px) {
+            .photo { width: 120px; height: 120px; }
+            .container { padding: 10px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="WhatsApp Image 2025-10-06 at 19.26.34.jpeg" alt="Foto Profil" class="photo">
+            <h1>Alpendri Fitra Ramadhan </h1>
+            <div class="contact">
+                <p>Email: pendrifitra301@email.com | Telepon: +62 838 0520 7942</p>
+                <p>Alamat: perum terangsari, jawa barat, Indonesia</p>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2>Profil Singkat</h2>
+            <p>Saya mahasiswa semester 5 Program Studi Teknik Informatika yang memiliki ketertarikan pada bidang basis data dan pemrograman web. Terbiasa bekerja dengan ketelitian tinggi serta memiliki kemampuan riset dan problem solving yang baik.</p>
+        </section>
+
+        <section class="section">
+            <h2>Pendidikan</h2>
+            <div class="education-item">
+                <div class="date">2011 - 2017</div>
+                <div class="job-title">SDN Cibalongsari</div>
+            </div>
+            <div class="education-item">
+                <div class="date">2017 - 2020</div>
+                <div class="job-title">SMP Islam Nurul Falah</div>
+            </div>
+            <div class="education-item">
+                <div class="date">2020 - 2023</div>
+                <div class="job-title">SMK Teknologi Karawang</div>
+            </div>
+            <div class="education-item">
+                <div class="date">2023 - 2027</div>
+                <div class="job-title">Sarjana Informatika, Universitas STTI SONY SUGEMA</div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Pengalaman Kerja</h2>
+            <div class="experience-item">
+                <div class="date">2025 - 2027</div>
+                <div class="job-title">Posisi Operator Produksi, Perusahaan GS Battery Karawang</div>
+            </div>
+            </section>
+
+        <section class="section">
+            <h2>Keterampilan</h2>
+            <ul class="skills-list">
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>Oracle VM VirtualBox</li>
+                <li>Microsoft Office</li>
+                <li>Adobe Photoshop</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
